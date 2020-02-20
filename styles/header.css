@@ -1,0 +1,153 @@
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+/*Header*/
+.hat{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-weight: bold;
+
+}
+.hat a,
+.hat i{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(top,#efd100,#e2a233 19%,#f0c328 30%,#fff1a3 43%,#ffe13e 55%,#fff 51%,#fff);
+}
+.hat_logo{
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+}
+.hat_logo a{
+	display: flex;
+}
+.hat_logo img{
+	padding: 5px 0;
+	width: 60px;
+}
+.hat_logo p{
+	letter-spacing: 1px;
+	font-size: 14px;
+	padding-left: 3px;
+}
+.hat_menu{
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+}
+.hat_social li:nth-child(even){
+	margin: 0 5px;
+	padding: 0 8px;
+	border-left: 1px solid #757575;
+	border-right: 1px solid #757575;
+}
+.hat_menu li,
+.hat_social li{
+	padding: 0 5px;
+	font-size: 12px;
+}
+.hat_menu li a:hover,
+.hat_social li a:hover{
+	color: #757575;
+	transition: 0.8s ease-out;
+}
+.hat_social{
+	display: flex;
+	list-style: none;
+	padding: 0;
+    margin: 0 10px;
+    align-items: center;
+}
+	/*Habmurger start*/
+.hamburger-wrap{
+	width: 35%;
+	position: relative;
+	color: #fff;
+	text-align: center;
+	height: 40px;
+}
+.burger-line{
+	position: absolute;
+	width: 35px;
+	height: 2px;
+	top: 8px;
+	right: 10px;
+	background-color: #fff8c2;
+	transition: .5s all;
+}
+.hb-first{
+
+}
+.hb-second, .hb-third{
+	top: 18px;
+}
+.hb-third{
+	
+}
+.hb-fourth{
+	top: 28px;
+}
+#check-menu{
+	display: none;
+}
+.hamburger-wrap label{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20%;
+	height: 100%;
+	margin-left: 80%;
+	z-index: 2;
+	line-height: 40px;
+}
+.hb-menu{
+	display: block;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	transform: translateY(100%);
+	z-index: 1;
+	background-color: #baeeeec2;
+	overflow: hidden;
+	max-height: 0;
+	font-size: 0;
+	transition: .5s all;
+}
+.hb-menu a{
+	display: block;
+	width: 100%;
+	border-top: 1px solid #fff;
+	color: #616161;
+	padding: 10px;
+	cursor: pointer;
+}
+.hb-menu a:hover{
+	background-color: #14EACE;
+}
+#check-menu:checked ~ .hb-menu{
+	max-height: 500px;
+	font-size: 16px;
+}
+#check-menu:checked ~ .hb-first{
+	display: none;
+}
+#check-menu:checked ~ .hb-fourth{
+	display: none;
+}
+#check-menu:checked ~ .hb-second{
+	transform: rotate(45deg);
+}
+#check-menu:checked ~ .hb-third{
+	transform: rotate(-45deg);
+}
+/*Hamburger end*/
+/*Header END*/

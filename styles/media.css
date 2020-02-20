@@ -1,0 +1,336 @@
+
+@media (max-width: 575px) {
+	.services_box{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.about_calc_box {
+		width: 50%;
+	}
+	.about_calc_box:nth-child(even){
+		border: none;
+	}
+	.stels_description{
+		margin-bottom: 30px;
+		margin-left: 10px;
+	}
+	.stels_description i{
+		font-size: 16px;
+	}
+	.team_name{
+		font-size: 18px;
+	}
+	.team_position{
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.tariff{
+		width: 100%;
+	}
+	.about_us_btn a{
+		margin-bottom: 5px;
+	}
+	.footer-wrap {
+    	width: 90%;
+	}
+	.f-content{
+		flex-direction: column;
+	}
+	.contact-info,
+	.f-content form{
+		width: 100%;
+	}
+	.compas-img{
+		display: none;
+	}
+	.compas-question{
+		margin: 20px 7px;
+	}
+	.f-content form input {
+    	width: 40%;
+	}
+	.pf-img img{
+		max-height: 170px;
+	}
+	.hat_menu,
+	.hat_social{
+		display: none;
+	}
+	.hat{
+		justify-content: space-between;
+	}
+	.blog_gallery{
+		width: 100%;
+	}
+	h1{
+		font-size: 24px;
+		letter-spacing: 2px;
+	}
+	.history-content{
+		width: 95%;
+	}
+	.clients img {
+    	width: 16%;
+    	max-height: 75px;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px){
+	.services_box{
+		width: 45%;
+		margin-bottom: 25px;
+		margin-right: 12px;
+	}
+	.services_boxes-wrap{
+		width: 70%;
+	}
+	.tariff{
+		width: 47%;
+	}
+	.footer-wrap {
+    	width: 90%;
+	}
+	.f-content{
+		flex-direction: column;
+	}
+	.contact-info,
+	.f-content form{
+		width: 100%;
+	}
+	.compas-img{
+		display: none;
+	}
+	.compas-question{
+		margin: 20px 7px;
+	}
+	.hat_menu,
+	.hat_social{
+		display: none;
+	}
+	.hat{
+		justify-content: space-between;
+	}
+	.hb-menu{
+    	border-bottom-left-radius: 25%;
+	}
+	.history-content{
+		width: 95%;
+	}
+	.our_team_block {
+    	width: 27%;
+    }
+	.clients img {
+   		width: 18%;
+	}
+}
+@media (max-width: 767px){
+	.pf-img img{
+		width: 50%;
+	}
+	.blog_gallery img,
+	.blog-info{
+		width: 100%;
+	}
+	.blog-info p{
+		font-size: 13px;
+	}
+	.blog-info h5{
+		font-size: 15px;
+	}
+	.bl-gall2{
+		display: none;
+	}
+	.clients{
+    	justify-content: space-around;
+    	width: 100%;
+	}
+	h4{
+		font-size: 10px;
+		letter-spacing: 0.2px;
+		padding: 25px 20px;
+	}
+	h2.title-text,h3.title-text{
+	font-size: 18px;
+    padding-top: 45px;
+    padding-bottom: 20px;
+	}
+	.about_calc_box p{
+		font-size: 11px;
+	}
+	.compas-question{
+		font-size: 16px;
+	}
+	.compas-desc{
+		font-size: 12px;
+	}
+	.services_box span{
+		letter-spacing: 0.3px;
+		padding: 15px 15px;
+	}
+	.history_blocks div{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.right-sidebar{
+		display: none;
+	}
+	.blog-content{
+		width: 100%;
+	}
+	.wrap{
+		width: 90%;
+	}
+	.blog-content form{
+		width: 90%;
+	}
+	.coments{
+		width: 100%;
+	}
+	.wrap{
+		width: 90%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.hat_logo img{
+		display: none;
+	}
+	.services_box{
+		width: 45%;
+		margin-bottom: 30px;
+		margin-left: 20px;
+	}
+	.our_team_block{
+		width: 30%;
+	}
+	.tariff{
+		width: 47%;
+	}
+	.blog_gallery img,
+	.blog-info{
+		width: 50%;
+	}
+	.footer-wrap {
+    	width: 90%;
+	}
+	.blog-info p{
+		font-size: 15px;
+	}
+	.blog-info h5{
+		font-size: 19px;
+	}
+	.compas-img{
+		display: none;
+	}
+	.compas-question{
+		margin: 20px 7px;
+	}
+	.clients{
+    	justify-content: space-around;
+    	width: 100%;
+	}
+	.hamburger-wrap{
+		display: none;
+	}
+	.compas-question{
+		font-size: 17px;
+	}
+	.compas-desc{
+		font-size: 14px;
+	}
+	.hat_menu li,
+	.hat_social li {
+    padding: 0 4px;
+	}
+	.history_blocks div{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.right-sidebar{
+		display: none;
+	}
+	.blog-content{
+		width: 100%;
+	}
+	.wrap{
+		width: 90%;
+	}
+	.coments{
+		width: 100%;
+	}
+	.wrap{
+		width: 85%;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.wrap{
+		width: 80%;
+	}
+	.services_boxes-wrap{
+		width: 80%;
+	}
+	.services_box{
+		width: 24%;
+	}
+	.our_team_block{
+		width: 30%;
+	}
+	.tariffs{
+		width: 100%;
+	}
+	.price{
+		font-size: 60px;
+		line-height: 80px;
+	}
+	.blog_gallery img,
+	.blog-info{
+		width: 50%;
+	}
+	.footer-wrap {
+    	width: 90%;
+	}
+	.blog-info p{
+		font-size: 18px;
+	}
+	.blog-info h5{
+		font-size: 20px;
+	}
+	.clients{
+    	justify-content: space-around;
+    	width: 100%;
+	}
+	.hamburger-wrap{
+		display: none;
+	}
+	.portfolio_btns{
+		width: 45%;
+	}
+	.history_blocks div{
+		width: 100%;
+		margin-top: 20px;
+	}
+	.footer-wrap {
+    	width: 90%;
+	}
+}
+@media (min-width: 1200px){
+	.services_boxes-wrap{
+		width: 55%;
+	}
+	.services_box{
+		width: 20%;
+	}
+	.our_team_block{
+		width: 30%;
+	}
+	.portfolio_btns {
+		width: 33%;
+	}
+	.hamburger-wrap{
+		display: none;
+	}
+	.hat_logo p{
+		font-size: 16px;
+	}
+	.hat a{
+		font-size: 17px;
+	}
+}
